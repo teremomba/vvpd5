@@ -15,7 +15,7 @@ def maclaurin_ln1(x: float) -> float:
         >>> maclaurin_ln1(0.5)
         -0.6931471805599451
     """
-    if not (-1 < x <= 1):
+    if not -1 < x <= 1:
         raise ValueError("x должен быть в пределах -1 < x <= 1")
 
     result = 0.0
@@ -37,7 +37,7 @@ def maclaurin_arctg(x: float) -> float:
         >>> maclaurin_arctg(0.5)
         0.46364760900080587
     """
-    if not (-1 <= x <= 1):
+    if not -1 <= x <= 1:
         raise ValueError("x должен быть в пределах -1 <= x <= 1")
 
     result = 0.0
@@ -64,7 +64,7 @@ def maclaurin_1(x: float, m: float) -> float:
         >>> maclaurin_1(0.5, 2)
         0.25
     """
-    if not (-1 < x < 1):
+    if not -1 < x < 1:
         raise ValueError("x должен быть в пределах -1 < x < 1")
 
     result = 1.0
