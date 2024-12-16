@@ -1,0 +1,53 @@
+# Python байт-кодные файлы
+＿pycache＿/
+*.py[cod]
+*$py.class
+
+# Логи
+*.log
+
+# Среда виртуального окружения
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+#Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы IDE
+idea/
+.vscode/
+
+# Файлы тестирования и покрытия
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+*.pytest_cache/
+
+# Сборочные файлы
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Файлы pigpen
+Pip file.lock
+
+# Настройки конфигурации
+*.cfg
+*.ini
+*.toml
+
+# Файлы зависимостей
+*.env
+*. requirements
+
+# Документация
+docs/_build/
